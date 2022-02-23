@@ -1,4 +1,4 @@
-GEO_ID	Census	Borough	Description	Council District	Land Area	Water Area
+GEO_ID	census_tract	borough	description	council_district	land_area	water_area
 36005002400	24	Bronx	Soundview Park	18	675614	265837
 36005016300	163	Bronx	Crotona Park	16	587582	0
 36005017100	171	Bronx	Claremont Park	16	169302	0
