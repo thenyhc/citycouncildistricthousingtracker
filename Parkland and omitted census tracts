@@ -1,0 +1,46 @@
+GEO_ID	Census	Borough	Description	Council District	Land Area	Water Area
+36005002400	24	Bronx	Soundview Park	18	675614	265837
+36005016300	163	Bronx	Crotona Park	16	587582	0
+36005017100	171	Bronx	Claremont Park	16	169302	0
+36005027600	276	Bronx	Pelham Bay Park (shore)	13	1525909	782519
+36005033400	334	Bronx	Bronx Park & Bronx Zoo	15	3036903	61601
+36005043500	435	Bronx	Woodlawn Cemetery, Vancourtland Park and Mosholu Golf Courses	11	6728790	32176
+36005050400	504	Bronx	Pelham Bay Park (island)	13	7228307	8936308
+36047015400	154	Brooklyn	Dyker Beach Golf Course	43	920671	0
+36047017500	175	Brooklyn	Green-Wood Cemetary	38	1961397	0
+36047017700	177	Brooklyn	Prospect Park	39	2270955	269971
+36047040700	407	Brooklyn	Southwest corner of Cemetery of the Evergreens	37	506876	0
+36047054300	543	Brooklyn	Brooklyn Navy Yard	33	1048068	353823
+36047066600	666	Brooklyn	Marine Park, Marine Park Golf Course, Mau Mau Island, and the southern corner of Floyd Bennet Field	46	4352300	5519897
+36047070202	702.02	Brooklyn	Northeast corner of Floyd Bennet Field	46	5201429	1677452
+36047070203	702.03	Brooklyn	Group of uninhabitable islands between Rockaway Beach and Canarsie Pier (including Canarsie Pol)	42	6267191	15964269
+36047085200	852	Brooklyn	Holy Cross Cemetery	45	402008	0
+36047118000	1180	Brooklyn	Southern portion of Highland Park and Cypress Hills Cemetary	37	774114	0
+36047990100	9901	Brooklyn	Gravesend Bay	N/A	0	17793513
+36061000100	1	Manhattan	Liberty Island and half of Ellis Island	1	78638	0
+36061000500	5	Manhattan	Governor's Island	1	821563	3296589
+36061014300	143	Manhattan	Central Park	6	2958772	599998
+36061024000	240	Manhattan	Randall's Island	8	2093582	760160
+36061029700	297	Manhattan	Inwood Hill Park	10	1016972	931404
+36061031100	311	Manhattan	Highbridge Park	10	781220	268008
+36061031900	319	Manhattan	The Battery	1	122998	288144
+36081009900	99	Queens	Astoria Park	22	281187	0
+36081022900	229	Queens	Calvary and Mount Zion Cemeteries	30	1354804	0
+36081029900	299	Queens	St. Michael's Cemetary	22	416526	0
+36081033100	331	Queens	La Guardia Airport	21	2581000	2453546
+36081038301	383.01	Queens	City Field and the World Fair Marina	21	528576	138183
+36081038302	383.02	Queens	Queens zoo and museum, part of Mt. Hebron Cemetery, and Flushing Meadows Corona Park	24	4541601	1203841
+36081056100	561	Queens	Mt. Carmel, Cypress Hills, and Evergreens Cemeteries, and Highland Park	30	2817407	82983
+36081062400	624	Queens	Montefiore Cemetery	27	515392	0
+36081064102	641.02	Queens	Forest Park and Forest Park Golf Course	30	2218882	0
+36081071600	716	Queens	JFK Airport	28	18242414	1117802
+36081079300	793	Queens	Cedar Grove and part of Mt. Hebron Cemetery	24	865247	0
+36081091602	916.02	Queens	Fort Tilden/ Gateway National Recreation Center	32	1308581	1106523
+36081091800	918	Queens	Jacob Riis Park	32	1227334	2174775
+36081107202	1072.02	Queens	Northeast area of Jamaica Bay and the Jamaica Bay Wildlife Refuge	31	7504745	16636750
+36081121100	1211	Queens	Kissena Park and Kissena Golf Course	20	988764	46201
+36081128300	1283	Queens	Cunnigham Park	23	1977351	0
+36081138502	1385.02	Queens	Alley Pond Park	23	2300295	108440
+36081990100	9901	Queens	Atlantic Coast along Rockaway and part of the southern section of Jamaica Bay	N/A	0	122602887
+36085015400	154	Staten Island	Great Kills Park	51	2220157	2745195
+36085990100	9901	Staten Island	Lower New York Bay	N/A	0	80255169
