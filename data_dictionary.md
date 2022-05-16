@@ -1,43 +1,43 @@
-New York Housing Conference – NYC Housing Tracker Data Dictionary/Methodology
+# New York Housing Conference – NYC Housing Tracker Data Dictionary/Methodology
 
-Download/view a PDF of the data dictionary/methodology here: https://files.constantcontact.com/4da7647d001/64d4b85b-1625-4d47-8c36-95a00f8e1ca2.pdf
+> Download/view a PDF of the data dictionary/methodology here: https://files.constantcontact.com/4da7647d001/64d4b85b-1625-4d47-8c36-95a00f8e1ca2.pdf
 
 
-HOUSING PRODUCTION DATA
+## HOUSING PRODUCTION DATA
 
 Total housing production includes existing housing units and net new housing units completed with a certificate of occupancy (including all types: private, market rate, public, affordable etc.). The net new units take into account new construction, demolitions, and alterations that changed unit counts. The data is from the Department of City Planning Housing Database:  https://www1.nyc.gov/site/planning/data-maps/open-data.page#housingdevelopment
   
 Affordable housing production counts units that have closed on financing before they begin construction, including 2014 – 2021, and come from NYC HPD through NYC Open Data. The data includes all units counted towards the Housing New York Plan: https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
 
-Affordable housing income ranges (for a family of two)
-Extremely Low Income
-0-30% AMI 
-< $32,220
+##### Affordable housing income ranges (for a family of two)
+###### Extremely Low Income
+- 0-30% AMI 
+- less than $32,220
 
-Very Low Income
-31-50% AMI 
-$32,220 - $53,700
+###### Very Low Income
+- 31-50% AMI 
+- $32,220 - $53,700
 
-Low Income
-51-80% AMI 
-$53,700 - $85,920
+###### Low Income
+- 51-80% AMI 
+- $53,700 - $85,920
 
-Moderate Income
-81-120% AMI 
-$85,920 - $128,880
+###### Moderate Income
+- 81-120% AMI 
+- $85,920 - $128,880
 
-Middle Income
-121-165% AMI 
-$128,880 - $177,210
+###### Middle Income
+- 121-165% AMI 
+- $128,880 - $177,210
 
-Upper Middle Income
-> 165% AMI 
-> $177,210
+###### Upper Middle Income
+- more than 165% AMI 
+- more than $177,210
 
 
-DEMOGRAPHIC, EXISTING STOCK, & HOUSING NEEDS DATA
+## DEMOGRAPHIC, EXISTING STOCK, & HOUSING NEEDS DATA
 
-Census Tract Data
+#### Census Tract Data
 The demographic and housing/household characteristics found in the tracker were Census Tract level estimates aggregated to the City Council District level. Census Tracts were assigned to Council Districts using the crosswalk found in the nyccensus data package: https://github.com/natalieoshea/nyccensus
 
 The crosswalk did not have a matching council district for 45 NYC census tracts. They are parkland, cemeteries, large green spaces like golf courses, and airports. All have been manually matched and included in the data, with the exception of 3 tracts which's areas are entirely made up of water; these tracts have "N/A" in the "Council District" column. All of which can be found here at NYHC's Github:
@@ -47,13 +47,14 @@ The final crosswalk used for the tracker can be found here: https://github.com/t
 
 Related data for every NYC census tract was pulled from the U.S. Census website. The tracker's statistics stem from estimates in the tables as follows:
 
-2020 Decennial Census Redistricting Data
+##### 2020 Decennial Census Redistricting Data
 Every decade the U. S. Census Bureau conducts a decennial census. These censuses attempt to count every person in the country and collect basic demographics like, age, sex, and race. The decennial census is the most accurate and geographically detailed way to understand who lives where. 
 •	(Table P2)
 o	Total Population*
 o	Race
 o	Density
-2015-2019 American Communities Survey (5-Year Estimates)
+
+##### 2015-2019 American Communities Survey (5-Year Estimates)
 The American Community Survey (ACS) is the most comprehensive nationwide survey, bringing the gaps in the Decennial Census and providing much more detail. The monthly ACS surveys samples approximately 300,000 addresses. These are then released into includes both annual releases of survey data and "5-year roll-ups" of estimates ranging from demographic and financial information to household characteristics and employment. The tracker utilizes the 5-year estimates of the ACS.
 
 •	(Table DP04)
@@ -76,7 +77,7 @@ o	Median Household Income*
 o	Vacancy Rate*
 Statistics without an asterisk (*) were aggregated as they were from the census site, while all others required calculation to develop.
 
-Census Data Calculations
+##### Census Data Calculations
 
 For Race, White, Black, and Asian are made up of those racial categories minus those with Hispanic ethnicity. The "Hispanic" categorization includes all individuals who responded with "Hispanic" as their ethnicity despite what race(s) respondents noted. "Other" includes the percentage left after accounting for these four groupings.
 The Racial Diversity Index calculates the probability that two randomly chosen people in a given geographic area will be of a different race. NYHC used the categories listed above – Asian, Black, Hispanic, and white to calculate the index, excluding the category of other, which is the percentage that were not in one of those four groups. The index is calculated using the following formula: 1 – (Percent Asian2 + Percent Black2 + Percent Hispanic2 + Percent white2). 
@@ -88,22 +89,22 @@ The units-in-structure estimates are percentages of the sum total of the structu
 Rent burden was calculated using the estimate of those respondents with a Gross Rent as a Percentage of Household Income (GRAPI) of 30-49 percent and 50 or more percent of total rental unit count (with vacant rental units subtracted).
 Median Household Income was estimated using linear interpolation. The estimates are presented in inflation-adjusted 2021 dollars calculated using the U.S. Bureau of Labor and Statistics historic Consumer Price Index tables found here: https://www.bls.gov/regions/mid-atlantic/data/consumerpriceindexhistorical_us_table.htm
 
-Households Entering DHS Shelters
+###### Households Entering DHS Shelters
 
 This data shows the number of households whose last address was in the community board. We used the NYC Open Data set Associated Address by Borough and Community District. The data was not detailed enough to be calculated at the council district level so we included it by community board. The tracker displays the data for community boards that overlap with that council district.
  https://data.cityofnewyork.us/Social-Services/Associated-Address-by-Borough-and-Community-Distri/ur7y-ziyb 
 
 
-Rent Regulated Units
+###### Rent Regulated Units
 
 Rent stabilized units courtesy of the Community Service Society of New York via the U.S. Census 2017 New York City Housing and Vacancy Survey.
 
-Housing Code Violations Per 100 Units
+###### Housing Code Violations Per 100 Units
 
 Code violations come from NYC Open Data Housing Maintenance Code Violations dataset. We included only violations with an issue date (NOVIssueDate) in 2020 (1/1/2020 - 12/31/2020). We divided the number of violations in the district by the number of units in the district multiplied by 100. 
 https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5 
 
-New York Housing Authority (NYCHA) Data
+###### New York Housing Authority (NYCHA) Data
 
 Two data points in the tracker are sourced from NYCHA, detailing the level of need (capital construction work) and the total amount of housing run by NYCHA in each council district. 
 Capital Needs
