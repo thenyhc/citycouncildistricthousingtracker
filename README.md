@@ -1,2 +1,2 @@
-# citycouncildistricthousingtracker
-The New York Housing Conference Housing Tracker is an effort to provide up-to-date information on housing production and need in New York City. These are the supporting documents for the trackers methodology. 
+# New York Housing Conference NYC Housing Tracker
+The New York City Housing Tracker is an effort to provide up-to-date information on housing production and need in New York City, by council district. It also includes other measures of housing need, existing housing stock makeup, and demographic characteristics for districts. These are the supporting documents for the tracker's methodology along with summary files for the data displayed on the cite. 
