@@ -1,6 +1,6 @@
 # New York Housing Conference – NYC Housing Tracker Data Dictionary/Methodology
 
-> Download/view a PDF of the data dictionary/methodology here: https://files.constantcontact.com/4da7647d001/9f3e1390-1a18-4c2e-a90f-d925da4cf781.pdf
+> Download/view a PDF of the data dictionary/methodology here: https://files.constantcontact.com/4da7647d001/968e2a10-71ac-40e3-a219-fdbd265c4f7b.pdf
 
 
 ## HOUSING PRODUCTION DATA
