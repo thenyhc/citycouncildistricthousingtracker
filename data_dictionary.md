@@ -91,8 +91,8 @@ Median Household Income was estimated using linear interpolation. The estimates 
 
 ###### Households Entering DHS Shelters
 
-This data shows the number of households whose last address was in the community board. We used the NYC Open Data set Associated Address by Borough and Community District. The data was not detailed enough to be calculated at the council district level so we included it by community board. The tracker displays the data for community boards that overlap with that council district.
- https://data.cityofnewyork.us/Social-Services/Associated-Address-by-Borough-and-Community-Distri/ur7y-ziyb 
+This data shows the number of individuals in shelter that came from the community board. More specifically, it shows the number of individuals that were in shelter as of November 2021 when we pulled the data whose last address was in the community board. We used the NYC Open Data set Associated Address by Borough and Community District. The data was not detailed enough to be calculated at the council district level so we included it by community board. The tracker displays the data for community boards that overlap with that council district.
+https://data.cityofnewyork.us/Social-Services/Associated-Address-by-Borough-and-Community-Distri/ur7y-ziyb 
 
 
 ###### Rent Regulated Units
